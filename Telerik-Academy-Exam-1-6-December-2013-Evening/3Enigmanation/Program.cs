@@ -6,6 +6,7 @@ namespace _3Enigmanation
         static void Main()
         {
             string input = Console.ReadLine();
+            input = input.Split('=')[0];
             long rez1 = 0;
 
             input = input.Trim(new char[] { ' ', '+', '-' });
