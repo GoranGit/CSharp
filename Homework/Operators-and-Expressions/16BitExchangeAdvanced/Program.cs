@@ -72,7 +72,7 @@ namespace _16BitExchangeAdvanced
                 else
                     Console.WriteLine("out of range");
 
-
+            
         }
     }
 }
